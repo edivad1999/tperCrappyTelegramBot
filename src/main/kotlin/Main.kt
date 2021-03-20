@@ -63,6 +63,7 @@ fun main() {
     bot.startPolling()
 }
 
+
 fun helloBus(codice: Int): String {
 
     val url = "http://hellobuswsweb.tper.it/web-services/hello-bus.asmx/QueryHellobus?fermata=$codice&linea=&oraHHMM="
